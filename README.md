@@ -1,38 +1,40 @@
-# create-svelte
+# SvelteKit Boilerplate
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a SvelteKit boilerplate project that provides a solid foundation for building web applications with SvelteKit, TypeScript, Tailwind CSS, and Prettier. It includes configurations for linting, formatting, and building your SvelteKit project.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **SvelteKit**: Utilize the power of SvelteKit, the next-generation framework for building fast and efficient web applications.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- **TypeScript**: Write type-safe code with TypeScript to catch errors early and enhance development productivity.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- **Tailwind CSS**: Easily style your components using Tailwind CSS, a highly customizable CSS framework.
 
-## Developing
+- **Prettier**: Maintain consistent code formatting across your project with Prettier. It's configured to work seamlessly with Svelte and Tailwind CSS.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- **Linting**: Keep your code clean and error-free with ESLint. We use ESLint with TypeScript and the Prettier plugin for consistent code quality.
 
-```bash
-npm run dev
+- **Vite**: Utilize Vite as the development server and build tool for blazing-fast development and production builds.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Getting Started
 
-## Building
+1. **Clone this Repository**
 
-To create a production version of your app:
+   Clone this repository to your local machine:
 
-```bash
-npm run build
-```
+   ```bash
+   git clone https://github.com/akhademik/sveltekit-boilerplate.git
+   ```
 
-You can preview the production build with `npm run preview`.
+2. **Install Dependencies**
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+   ```bash
+   cd sveltekit-boilerplate
+   pnpm install
+   ```
+
+3. **Development Mode**
+
+   ```bash
+   pnpm dev
+   ```
