@@ -9,3 +9,5 @@
 <BaseIcon
 	name="flag_vi"
 	class="w-10" />
+
+<h1 class="text-red-400">Hello</h1>
