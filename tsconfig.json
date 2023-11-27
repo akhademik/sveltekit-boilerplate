@@ -12,9 +12,8 @@
 		"baseUrl": ".",
 		"paths": {
 			"$assets/*": ["./src/lib/assets/*"],
-			"$common/*": ["./src/lib/common/*"],
-			"$lib": ["./src/lib"],
-			"$lib/*": ["./src/lib/*"]
+			"$base": ["./src/lib/base"],
+			"$stores/*": ["./src/lib/stores/*"]
 		}
 	}
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias

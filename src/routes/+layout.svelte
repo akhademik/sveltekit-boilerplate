@@ -1,11 +1,11 @@
 <script lang="ts">
-	import CSeo from '$common/c-seo.svelte'
+	import { BaseSeo } from '$base'
 
-	import '$lib/styles/main.css'
-	import '$lib/styles/tailwind.css'
+	import '$assets/styles/main.css'
+	import '$assets/styles/tailwind.css'
 </script>
 
-<CSeo
+<BaseSeo
 	title="Svelte Boiler Plate"
 	description="Svelte Boiler Plate" />
 
