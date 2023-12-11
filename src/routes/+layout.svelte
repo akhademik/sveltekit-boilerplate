@@ -5,8 +5,6 @@
 	import '$assets/styles/tailwind.css'
 </script>
 
-<BaseSeo
-	title="Svelte Boiler Plate"
-	description="Svelte Boiler Plate" />
+<BaseSeo />
 
 <slot />

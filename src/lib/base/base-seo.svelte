@@ -1,5 +1,7 @@
 <script lang="ts">
-	import { seo_description, seo_keywords, seo_title } from '$stores/seo-store'
+	// use set_seo from seo store to set for title , description and keywords
+	// on any page that need to update SEO just set_seo onMount
+	import { seo_description, seo_keywords, seo_title, set_seo } from '$stores/seo-store'
 
 	const base = {
 		desc: 'Discover the vibrant culture and rich traditions of Vietnam’s highlands with our travel agency. Experience the lifestyle of the minority people, participate in their customs, and explore breathtaking landscapes. Join us for sustainable and responsible tourism',

@@ -2,7 +2,7 @@
 	import { BaseIcon } from '$base'
 </script>
 
-<h1 class="flex text-3xl text-white font-roboto">Welcome to SvelteKit</h1>
+<h1 class="flex font-roboto text-3xl text-white">Welcome to SvelteKit</h1>
 <BaseIcon
 	name="hamburger"
 	class="w-10 fill-neutral-300 stroke-red-600" />
